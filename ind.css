@@ -1,0 +1,405 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+
+
+
+.bx-default-pager {
+    display: none;
+}
+
+.inlin{
+    display:inline;
+}
+
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.preload {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+
+body {
+    /*background-image: url("bkg.jpg");*/
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-x: center;
+    /*background-attachment:fixed;*/
+    background-size: 100%;
+    /*background-size: cover;*/
+    font-family: "Alata";
+    font-size: 14px;
+    color: #545454;
+}
+
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+    outline-offset: -1px;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.meni {
+    position: absolute;
+    width: 100%;
+    /* right: 50%; */
+    /* text-align: center; */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1em;
+    z-index: 100;
+}
+
+.bx-wrapper {
+    z-index: 11;
+}
+
+.labelSlider {
+    position: absolute;
+    left: 50%;
+    top: 21vw;
+    transform: translateX(-50%);
+}
+.naslov-3{
+    font-size:2vw;
+    font-style: italic;
+}
+
+
+
+.aromaLogo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10vw;
+    width: 60%;
+    max-width: 40%;
+    max-height: 20%;
+    z-index: 12;
+}
+
+.bx-wrapper{
+    margin-bottom:0!important;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.zastoMirisi {
+    background-image: url(images/bkg-home-zastomirisi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.proizvodi {
+    background-image: url(images/bkg-home-proizvodi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.centar {
+    text-align: center;
+}
+.slider {
+    z-index: 0;
+}
+
+.logo-slajder {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.naslov-1 {
+    font-size: 2em;
+}
+
+.naslov-2 {
+    font-size: 1.5em;
+}
+
+.pad-1 {
+    padding: 1em;
+}
+
+.pad-2 {
+    padding: 2em;
+}
+
+.pad-3 {
+    padding: 3em;
+}
+
+.paragraf-1 {
+}
+
+.kol {
+    float: left;
+}
+
+.kolona-2{
+    width:50%;
+}
+
+.kolona-3 {
+    width: 33.33%;
+}
+
+.kolona-4 {
+    width: 25%;
+}
+
+.kolona-6 {
+    width: 16.66%;
+}
+
+.kolona {
+    float: left;
+}
+
+.width-80{
+    width:80%;
+}
+
+.width-70{
+    width:70%;
+}
+
+.paragraf-2 {
+    max-height: 12em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dugme-1 {
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-color: Transparent;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    padding: 8px 22px;
+}
+
+.dugme-2 {
+    background-repeat: no-repeat;
+    border: none;
+    background-color: dimgrey;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    padding: 8px 22px;
+}
+
+
+.slikaPozadina {
+    width: 100%;
+}
+
+.slika-reference{
+    width:95%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.slova-2 {
+    font-size: 2em;
+}
+
+
+.slova-3 {
+    font-size: 3em;
+}
+
+
+.slova-4 {
+    font-size: 4em;
+}
+
+.slajder {
+    /*margin-bottom: -4em;*/
+}
+
+.gradient {
+    background: #dae33c;
+    background: -moz-linear-gradient(left, #dae33c 0%, #f6bf2c 50%, #f26cb5 100%);
+    background: -webkit-linear-gradient(left, #dae33c 0%,#f6bf2c 50%,#f26cb5 100%);
+    background: linear-gradient(to right, #dae33c 0%,#f6bf2c 50%,#f26cb5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae33c', endColorstr='#f26cb5',GradientType=1 );
+    width: 100%;
+    height: 10px;
+
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+.gradientPozicija {
+    position: absolute;
+    z-index: 14;
+    bottom: 0.05em;
+}
+
+.parallax-window {
+    min-height: 30em;
+    background: transparent;
+}
+
+.para-text {
+    width: 100%;
+    position: absolute;
+    bottom: 30%;
+}
+
+.siva-pozadina {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.beli-text {
+    color: white;
+}
+
+.centar-h-r {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.sirina20 {
+    width: 20%;
+}
+
+.pad-lr-3{
+    padding-left:3em;
+    padding-right:3em;
+}
+
+.opasiti-7 {
+    opacity: 0.7;
+}
+
+.padding-bot-2{
+    margin-bottom:2em;
+}
+
+
+.padding-top-2 {
+    margin-top: 2em;
+}
+
+.krug {
+    border-radius: 50%;
+}
+
+.siva-ef {
+    background-color:#efefef
+}
+
+.slika-proizvodi{
+    width:100%;
+}
+
+
+.labelKontakt{
+    width:20%;
+}
+
+.adresa{
+    float:right;
+}
+
+.telefoni{
+    float:right;
+}
+
+.margin-bot-1{
+    margin-bottom:1em;
+}
+
+.adresa > div{
+    float:right;
+}
+
+@media screen and (max-width: 700px){
+
+    .kolona-3{
+        width:100%;
+    }
+
+    .kolona-4 {
+        width: 50%;
+    }
+
+    .kolona-6{
+        width:33.33%;
+    }
+
+    .labelKontakt{
+        width:100%;
+    }
+
+    .adresa{
+        width:100%;
+    }
+
+    .adresa>div{
+        width:100%;
+    }
+
+    .social{
+        width:33%!important;
+    }
+
+}

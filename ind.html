@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="ind.css">
+    <link href="https://fonts.googleapis.com/css?family=Alata" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="lib/aos.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="lib/counter.js"></script>
+    <link href="vegas/css/vgnav.css" rel="stylesheet" />
+    <link href="vegas/css/vgnav-theme.css" rel="stylesheet" />
+    <script src="lib/aos.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                //autoControls: true,
+                stopAutoOnClick: true,
+            });
+            //$('.brojac').counterUp({
+            //    delay: 100,
+            //    time: 2000
+            //});
+            $('.vg-nav').vegasMenu();
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            AOS.init();
+        });
+    </script>
+    <script src="parallax/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".preload").fadeOut("slow");;
+        });
+    </script>
+</head>
+
+
+
+<body>
+    <div class="preload"></div>
+    <div class="wrapper">
+        <div class="row centar">
+            <div class="navigation meni" style="">
+                <nav class="vg-nav vg-nav-lg">
+                    <ul>
+                        <li class="active">
+                            <a href="#">Home page</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">About us</a>
+                            <ul class="left">
+                                <li><a href="#">Prvi test</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Drugi nivo</a>
+                                    <ul class="left">
+                                        <li><a href="#">Prvi test</a></li>
+                                        <li><a href="#">Drugi test</a></li>
+                                        <li class="dropdown">
+                                            <a href="#">Treci nivo</a>
+                                            <ul class="left">
+                                                <li><a href="#">Prvi</a></li>
+                                                <li><a href="#">Drugi</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Treci test</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Why scents?</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Rent an aroma</a>
+                        </li>
+                        <li>
+                            <a href="#">Research</a>
+                        </li>
+                        <li>
+                            <a href="#">Health & Safety</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Video</a>
+                        </li>
+                        <li>
+                            <a href="#">References</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li><img src="images/flag-rs.png" /></li>
+                        <li><img src="images/flag-uk.png" /></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="slider">
+                <div><img src="images\slider2.jpg" /><div class="labelSlider naslov-3 siva-pozadina beli-text">Select a unique fragrance for your brand only</div></div>
+                <div><img src="images\slider1.jpg" /><div class="labelSlider naslov-3 siva-pozadina beli-text">Refreshment of large business premises will impress 95% of visitors</div></div>
+                <div><img src="images\slider3.jpg" /><div class="labelSlider naslov-3 siva-pozadina beli-text">Decorate your hotel space with irresistable and realaxing fragrances because your guests deserve it</div></div>
+                <div><img src="images\slider4.jpg" /><div class="labelSlider naslov-3 siva-pozadina beli-text">Add invisible hedonism that relaxes and improves mood of your guests</div></div>
+            </div>
+            <div class="gradient gradientPozicija"></div>
+
+            <div class="aromaLogo">
+                <img class="logo-slajder" src="images\logo.fw.png" />
+            </div>
+        </div>
+
+        <div class="row slajder"></div>
+
+        <div class="row zastoMirisi"></div>
+
+        <div class="row zastoMirisi centar pad-lr-3" data-aos="fade-left" data-aos-duration="4000">
+            <!--<img class="slikaPozadina" src="images/bkg-home-zastomirisi.jpg" />-->
+            <div class="slova-3 centar pad-1 ">Why scents?</div>
+            <div class="paragraf-1 centar pad-1 bold">The sense of smell is our most sensitive and the most sensitive sense that functions constantly i.e 24 hours. The sense of smell is directly linked to memory and emotions that are found in the same part of our brain. Due to these facts, the impression of scented space stays permanently in our memory.</div>
+            <div class="row padding-bot-2">
+                <div class="kol kolona-3">
+                    <div class="paragraf-1">increased interest in your products</div>
+                    <div class="procenti slova-4"><span class="counter" data-count="34">0</span>%</div>
+                </div>
+                <div class="kol kolona-3">
+                    <div class="paragraf-1">initiates spontaneous shopping</div>
+                    <div class="procenti slova-4"><span class="counter" data-count="21">0</span>%</div>
+                </div>
+                <div class="kol kolona-3">
+                    <div class="paragraf-1">Improves mood and productivity of employees</div>
+                    <div class="procenti slova-4"><span class="counter" data-count="19">0</span>%</div>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <div class="row parallax-window beli-text centar" data-parallax="scroll" data-image-src="images/bkg-home-mirisi.jpg">
+            <div class="para-text" data-aos="fade-right" data-aos-duration="1500">
+                <div class="slova-3"><div class="siva-pozadina centar-h-r sirina20">Scents</div></div>
+                <div class="paragraf-1  pad-2  pad-lr-3 "><div class="siva-pozadina centar-h-r width-80">We offer over 2000 of the finest scents selected in accordance with your industry, interior and the size of your business premises.</div></div>
+                <div class="dugme centar"><button class="dugme-1">MORE INFO</button></div>
+            </div>
+        </div>
+        <div class="row proizvodi centar" data-aos="flip-up" data-aos-duration="1000">
+            <!--<img class="slikaPozadina" src="images/bkg-home-zastomirisi.jpg" />-->
+            <div class="centar pad-1 slova-3 pad-lr-3" data-aos="fade-left" data-aos-duration="2000">Products</div>
+            <div class="row pad-1" data-aos="fade-right" data-aos-duration="2000">
+                <div class="kol kolona-4 pad-1" data-aos="flip-left" data-aos-duration="2500"><img class="slika-proizvodi" src="images/scent.png" /><div class="naslov-2">Scent stream</div><div class="paragraf-2 pad-1">Scent stream is currently the most advanced and most effective scenting device in the world that is intended for all large commercial spaces such as hotels, office buildings, shopping malls, casinos or any other...</div><button class="dugme-2">MORE INFO</button></div>
+                <div class="kol kolona-4 pad-1" data-aos="flip-up" data-aos-duration="2500"><img class="slika-proizvodi" src="images/scentdirect-1.png" /><div class="naslov-2">Scent direct</div><div class="paragraf-2 pad-1">This powerful machine for professional refreshment of business premises covers all spaces up to 300 m2. The device has a sophisticated computer through which you can make the most precise adjustment of the intensity...</div><button class="dugme-2">MORE INFO</button></div>
+                <div class="kol kolona-4 pad-1" data-aos="flip-up" data-aos-duration="2500"><img class="slika-proizvodi" src="images/aromajet-1.png" /><div class="naslov-2">Aroma Jet</div><div class="paragraf-2 pad-1">This device is used for air scenting of spaces to 120 m2. Aroma Jet machine works on the principle of “Dry air” which means that the scent is implemented into the room through the dry air which is very...</div><button class="dugme-2">MORE INFO</button></div>
+                <div class="kol kolona-4 pad-1" data-aos="flip-right" data-aos-duration="2500"><img class="slika-proizvodi" src="images/aromaclassic.png" /><div class="naslov-2">Aroma classic</div><div class="paragraf-2 pad-1">The device is designed for air freshening, such as offices, hotel rooms, hallways, locker rooms, waiting rooms, toilets, offices, as well as residential spaces up to 30m2. This Aroma Brand device operates on the...</div><button class="dugme-2">MORE INFO</button></div>
+
+            </div>
+        </div>
+        <div class="row  centar siva-ef" data-aos="fade-right" data-aos-duration="1500">
+            <!--<img class="slikaPozadina" src="images/bkg-home-zastomirisi.jpg" />-->
+            <div class="centar pad-1 slova-3"> Promo video</div>
+            <div class="row padding-bot-2 pad-2">
+                <div class="kol kolona-3 pad-1"><iframe data-aos="flip-left" data-aos-duration="2500" width="100%" height="315" src="https://www.youtube.com/embed/kMCnB4DgahM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="kol kolona-3 pad-1"><iframe data-aos="flip-up" data-aos-duration="2500" width="100%" height="315" src="https://www.youtube.com/embed/q5ubrZqQT1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="kol kolona-3 pad-1"><iframe data-aos="flip-right" data-aos-duration="2500" width="100%" height="315" src="https://www.youtube.com/embed/yQH96E1Rdx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+        </div>
+        <div class="row parallax-window beli-text centar" data-parallax="scroll" data-image-src="images/bkg-home-aktuelnosti.jpg">
+            <div class="para-text" data-aos="fade-left" data-aos-duration="1500">
+                <div class="slova-3"><div class="siva-pozadina centar-h-r sirina20">News</div></div>
+                <div class="paragraf-1 pad-2  pad-lr-3 ">
+                    <div class="siva-pozadina centar-h-r width-80">
+                        Coca Cola promoted its new global slogan “Taste the feeling” in Madlenianum on 21.01.2016. The greatest innovation during the promotion were moments of introducing the auditorium to the authentic fragrance...
+                    </div>
+                </div>
+                <div class="dugme centar"><button class="dugme-1">MORE INFO</button></div>
+            </div>
+        </div>
+        <div class="row  centar siva-ef" data-aos="flip-up" data-aos-duration="2500">
+            <!--<img class="slikaPozadina" src="images/bkg-home-zastomirisi.jpg" />-->
+            <div class="centar pad-1 slova-3"> References</div>
+            <div class="paragraf-1 pad-2  pad-lr-3 ">
+                <div class="centar-h-r">
+                    Our satisfied customers are: hotels, telecommunication companies, casinos, car and furniture showrooms, office buildings, shopping malls, retail outlets, spa & wellness ...
+                </div>
+            </div>
+            <div class="row pad-2 padding-bot-2">
+                <div class="kol kolona-6"><img class="slika-reference" src="images/bgwf.jpg" /></div>
+                <div class="kol kolona-6"><img class="slika-reference" src="images/1mts.png" /></div>
+                <div class="kol kolona-6"><img class="slika-reference" src="images/2cocacola.png" /></div>
+                <div class="kol kolona-6"><img class="slika-reference" src="images/3deltacity.png" /></div>
+                <div class="kol kolona-6"><img class="slika-reference" src="images/4vip.png" /></div>
+                <div class="kol kolona-6"><img class="slika-reference" src="images/5mpc.png" /></div>
+            </div>
+        </div>
+        <div class="row kontakt centar margin-bot-1">
+            <div class="gradient"></div>
+            <div class="pad-1">
+                <div class="kol slova-3 labelKontakt">Contact</div>
+                <div class="adresa">
+                    <div class="kol kolona-3">
+                        <div class="row>">
+                            <div class="kol kolona-3 social"><img src="images/icon-fb.png" /></div>
+                            <div class="kol kolona-3 social"><img src="images/icon-insta.png" /></div>
+                            <div class="kol kolona-3 social"><img src="images/icon-yt.png" /></div>
+                        </div>
+                    </div>
+                    <div class="kol kolona-3">
+                        +381 11 334 90 98 ; +381 65 334 90 98
+                        <br />  info@aromabrand.rs ; www.aromabrand.rs
+                    </div>
+                    <div class="kol kolona-3">
+                        AROMA BRAND DOO
+                        <br />Miće Popović 11, 11000 Belgrade, Serbia
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="vegas/js/vgnav.min.js"></script>
+</body>
+</html>
